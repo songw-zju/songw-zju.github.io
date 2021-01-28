@@ -353,8 +353,8 @@
         
           
             <h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><h2 id="test-1"><a href="#test-1" class="headerlink" title="test"></a>test</h2><p>test</p>
-<h3 id="test-2"><a href="#test-2" class="headerlink" title="test"></a>test</h3><p>$$<br>COP = \frac{Q_{CoolingCircuits}}{P_{CoolingCircuits}}<br>$$</p>
-
+<h3 id="test-2"><a href="#test-2" class="headerlink" title="test"></a>test</h3><script type="math/tex; mode=display">
+COP = \frac{Q_{CoolingCircuits}}{P_{CoolingCircuits}}</script>
           
         
       
@@ -821,6 +821,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
